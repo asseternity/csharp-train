@@ -12,3 +12,4 @@ D:\Coding\dotnet-projects\test1\MyConsoleApp\obj\Debug\net8.0\refint\MyConsoleAp
 D:\Coding\dotnet-projects\test1\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.pdb
 D:\Coding\dotnet-projects\test1\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.genruntimeconfig.cache
 D:\Coding\dotnet-projects\test1\MyConsoleApp\obj\Debug\net8.0\ref\MyConsoleApp.dll
+D:\Coding\dotnet-projects\test1\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.sourcelink.json
