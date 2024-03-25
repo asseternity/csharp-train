@@ -2,6 +2,7 @@
 using ToDoList;
 using Calculator;
 using WritingTracker;
+using RockPaperScissors;
 // --- TO DO LIST CONSOLE APP ---
 namespace ToDoList
 {
@@ -14,6 +15,7 @@ namespace ToDoList
             Console.WriteLine("1: To Do List");
             Console.WriteLine("2: Calculator");
             Console.WriteLine("3: Writing Tracker");
+            Console.WriteLine("4: Rock Paper Scissors");
 
             int choice = int.Parse(Console.ReadLine());
 
@@ -30,6 +32,10 @@ namespace ToDoList
                 case 3:
                     WT_UI wt_UI = new WT_UI();
                     wt_UI.Start();
+                    break;
+                case 4:
+                    RPS_UI rps_UI = new RPS_UI();
+                    rps_UI.Start();
                     break;
                 default:
                     Console.WriteLine("Invalid choice. Please try again.");
